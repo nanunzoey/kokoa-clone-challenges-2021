@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Talk to Zoey</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>06:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Nicolas</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Sunday, April 18, 2021
+        </div>
+        <div class="msg-row">
+            <img src="http://avatars3.githubusercontent.com/u/3612017">
+            <div class="msg-row__content">
+                <span class="msg__author">Nicolas</span>
+                <div class="msg__info">
+                    <span class="msg__bubble">Hi!</span>
+                    <span class="msg__time">22:52</span>
+                </div>
+            </div>
+        </div>
+        <div class="msg-row msg-row-me">
+            <div class="msg-row__content">
+                <div class="msg__info">
+                    <span class="msg__bubble">Hey!</span>
+                    <span class="msg__time">22:53</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-beam"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <div>This screen is too wide.</div>
+        <div>Please open with your mobile to proceed.</div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
